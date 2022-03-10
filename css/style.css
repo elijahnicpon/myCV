@@ -1,0 +1,194 @@
+div {
+  height: 8%;
+  width: 100%;
+  display: inline-block;
+
+}
+body {
+  margin: 0 auto 0 auto;
+}
+
+h2 {
+  display: inline-block;
+  margin: 0 auto 0 auto;
+  font-family: "Garamond";
+  text-decoration: none;
+  color: black;
+  font-size: 1.75vw;
+  left: 0%;
+}
+h1 {
+  font-family: "Garamond";
+  text-decoration: none;
+  color: black;
+  font-size: 3.5vw;
+}
+
+.topNavigationBar {
+  position: fixed;
+  background-color: white;
+  top: 1%;
+  border-bottom: .15vw solid black;
+  border-top: .15vw solid black;
+  padding: 1%
+
+}
+
+.homeButton {
+  position: absolute;
+  width: 20%;
+  height: 70%;
+  vertical-align: middle;
+  left: 1%;
+
+}
+.contactButton {
+  text-align: center;
+  position: absolute;
+  height: 50%;
+  width: 12%;
+  right: 3%;
+  top: 30%;
+  background-color: white;
+}
+.projectsButton {
+  text-align: center;
+  height: 50%;
+  width: 12%;
+  right: 15%;
+  top: 30%;
+  background-color: white;
+  position: absolute;
+}
+.bioButton {
+  text-align: center;
+  height: 50%;
+  width: 12%;
+  right: 27%;
+  top: 30%;
+  background-color: white;
+  position: absolute;
+}
+
+.homeContainer {
+  background-color: white;
+  position: fixed;
+  width: 55%;
+  height: 40%;
+  border: .15vw solid black;
+  border-radius: 3%;
+  top: 27.5%;
+  left: 15%;
+  padding: 5%;
+
+}
+
+.homeLogo {
+  position: absolute;
+  background-color: white;
+  width: 47%;
+  height: 94%;
+  left: 2%;
+  top:3%;
+}
+
+.homeLogoImg {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+  width: 100%;
+  top:7.5%;
+}
+
+.homeRightContainer {
+  position: absolute;
+  background-color: white;
+  width: 47%;
+  height: 94%;
+  right: 2%;
+  top: 3%;
+  vertical-align: middle;
+}
+
+.centerRightContainer {
+  display: flex;
+  align-items:center;
+  position: relative;
+  height: 100%;
+}
+
+.titleText {
+  position: absolute;
+  font-weight: bold;
+
+  font-family: "Garamond";
+  top: 5%;
+  font-size: 4vw;
+}
+.nameText {
+  position: absolute;
+  font-family: "Garamond";
+  top: 22.5%;
+  font-size: 3vw;
+}
+.descripText {
+  position: absolute;
+  font-family: "Garamond";
+  font-size: 2vw;
+  top:37.5%
+
+}
+
+.gitPicLink {
+  position: absolute;
+  height: 100%;
+  align-items: center;
+  right:5%;
+  top: -3.5%;
+}
+.linkedInPicLink {
+  position: absolute;
+  height: 110%;
+  align-items: center;
+  top: -3.5%;
+  left: 5%;
+}
+
+.linkContainer {
+  position: relative;
+  top:27.5%;
+  height:30%;
+  width: 95%;
+  background-color: white;
+}
+
+.homeContainer2 {
+  background-color: white;
+  position: absolute;
+  width: 75%;
+  height: 55%;
+  border: .15vw solid black;
+  border-radius: 1%;
+  top: 20%;
+  left: 7.5%;
+  padding: 5%;
+}
+.leftProjectContainer {
+  position: absolute;
+  background-color: white;
+  width: 50%;
+  height: 100%;
+  left: 0%;
+  display: flex;
+  height: 80%;
+}
+.rightProjectContainer {
+  position: absolute;
+  background-color: white;
+  width: 50%;
+  height: 100%;
+  right: 0%;
+  display: flex;
+  height: 80%;
+}

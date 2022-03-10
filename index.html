@@ -1,70 +1,72 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css\style.css">
+    <link rel="icon" href="resources\favicon-16x16.pmg">
+    <title>Personal Website Home Page</title>
+  </head>
+  <style media="screen">
+    body {
+    background-image: url(resources/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+  </style>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="description" content="Elijah Nicpon is an undergraduate Computer Science student at the Georgia Institute of Technology.">
-  <title>Elijah's Personal Site</title>
-  <link rel="stylesheet" href="css/styles.css">
-
-</head>
-
-<body>
-  <table>
-    <tr>
-      <td><img src="pfp.PNG" alt="Elijah Nicpon Portrait"></td>
-      <td>
-        <h1>Elijah Nicpon</h1>
-        <p>Undergraduate Computer Science Major</p>
-        <p>Georgia Insitute of Technology</p>
-        <a href="contactMeV2.html">
-          <h4>Contact Me</h4>
+  <body>
+    <div class="topNavigationBar">
+      <div class="homeButton">
+        <a href="index.html">
+          <img src="resources\bucketCorner.svg" alt="Home Button" style="position: absolute;
+          display: inline-block;
+          vertical-align: middle;
+          height: 100%;
+          width: 100%;
+          top:7.5%;">
         </a>
-      </td>
-    </tr>
-    <tr>
+      </div>
+      <a href="contact.html">
+        <div class="contactButton">
+          <h2>contact</h2>
+          </div>
+      </a>
+      <a href="projects.html">
+        <div class="projectsButton">
+          <h2>projects</h2>
+        </div>
+      </a>
+      <a href="bio.html">
+        <div class="bioButton">
+          <h2>bio</h2>
+        </div>
+      </a>
+    </div>
+    <div class="homeContainer">
+      <div class="homeLogo">
+        <img class="homeLogoImg" src="resources\bucketLine.svg" alt="bucket hat logo" >
+      </div>
 
-    </tr>
-  </table>
-
-  <br>
-  <table>
-    <tr>
-      <td><a href="https://github.com/elijahnicpon"> <img src="github logo.png" alt="Github Logo" width=120px> </a></td>
-      <td><a href="https://www.linkedin.com/in/elijah-nicpon/"><img src="linkedin logo.png" alt="LinkedIn Logo" width=120px></a></td>
-    </tr>
-  </table>
-  <hr>
-  <h3>Skills</h3>
-  <ul>
-    <li>Python</li>
-    <li>R</li>
-    <li>ArcGIS and ArcPy</li>
-  </ul>
-  <hr>
-  <h3>Experience</h3>
-  <table>
-    <theader>
-      <tr>
-        <th>Year</th>
-        <th>Description</th>
-      </tr>
-    </theader>
-    <tbody>
-      <tr>
-        <td>2021</td>
-        <td>NewFields</td>
-      </tr>
-      <tr>
-        <td>2021</td>
-        <td>Daniel Tutoring</td>
-      </tr>
-      <tr>
-        <td>2019-Present</td>
-        <td>MelonMedia</td>
-      </tr>
-    </tbody>
-  </table>
-</body>
-
+      <div class="homeRightContainer">
+        <div class="centerRightContainer">
+          <div class="titleText">
+            How's it going?
+          </div><br>
+          <div class="nameText">
+            I'm Elijah.
+          </div>
+          <div class="descripText">
+            I'm a computer science student at Georgia Tech. I like programming, data anlytics and oxford commas.
+          </div>
+          <div class="linkContainer">
+            <a href="https://github.com/elijahnicpon"><img src="resources\github.png" alt="My Github" class="gitPicLink"></a>
+            <a href="https://www.linkedin.com/in/elijah-nicpon/"><img src="resources\blackLinkedIn.webp" alt="My LinkedIn" class="linkedInPicLink"></a>
+          </div>
+          <!-- <hr style="border-top: .15vw solid black;">
+          <!-- <div class="linkContainer"> -->
+          </div>
+        </div>
+      </div>
+  </body>
 </html>
